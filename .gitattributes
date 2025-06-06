@@ -1,0 +1,29 @@
+# === Hunspell dictionaries: preserve LF line endings ===
+resources/dictionaries/ru_RU/ru_RU.aff text eol=lf
+resources/dictionaries/ru_RU/ru_RU.dic text eol=lf
+
+# === Project text files processing ===
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.tsv text eol=lf
+
+# === Binary files: don't attempt to normalize ===
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.tif binary
+*.tiff binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.7z binary
+
+# === Jupyter notebooks, if they appear ===
+*.ipynb text eol=lf
+
+# === Enable auto text detection but disable global CRLF conversion ===
+* text=auto

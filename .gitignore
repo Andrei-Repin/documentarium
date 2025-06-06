@@ -1,0 +1,45 @@
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# ========== Virtual Environment ==========
+.venv/
+venv/
+*.env
+
+# ========== IDE & Editor Configs ==========
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ========== OS-generated files ==========
+.DS_Store
+Thumbs.db
+
+# ========== Logs ==========
+logs/
+!logs/.gitkeep
+
+# ========== Output Files ==========
+output/
+!output/.gitkeep
+
+# ========== Processed / Input images ==========
+processed_images/
+input_images/
+
+# ========== Kraken & Tesseract models ==========
+*.mlmodel
+*.traineddata
+
+# ========== Temp / backup ==========
+*.bak
+*.tmp
+*.swp
+
+# ========== Local Configs ==========
+config/settings_local.py
