@@ -1,3 +1,4 @@
+## Documentarium – v0.2.0
 # Archival Inventories and Documents Processing Tool
 
 A tool for processing and recognizing archival inventories and documents, with support for typewritten and handwritten text.
@@ -103,6 +104,19 @@ documentarium/
 ├── README.md                        # Project documentation  
 └── requirements.txt                 # Python dependencies  
 
+## 🛣️ Planned improvements (roadmap)
+
+- Improved robustness to diverse image conditions
+  The current image preprocessing scripts are optimized for relatively uniform conditions (e.g., good lighting, minimal distortion, no strong shadows). Support for more challenging input (e.g., shadows, skewed angles, variable lighting) is planned.
+- Post-processing of printed OCR text
+  Ongoing work includes improving the correction of common OCR errors, such as misrecognized characters, broken lines, and formatting issues. More advanced error correction mechanisms are planned.
+- Handwritten text recognition
+  Planned integration of OCR models capable of recognizing handwritten text in various styles.
+
+## 📁 Archive notice and previous development
+
+Note: The earlier development stage focusing on image preprocessing is archived and no longer maintained.
+You can find the archived version here: [image-preprocessing](https://github.com/Andrei-Repin/image-preprocessing)
 
 ## 🤝 How to Contribute
 
