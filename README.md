@@ -54,6 +54,7 @@ Main settings can be adjusted in config/settings.py.
 
 ## 📁 Project Structure
 
+```bash
 documentarium/  
 ├── config/                          # Configuration files  
 │   └── settings.py                  # Main settings for paths, OCR, and processing  
@@ -103,6 +104,7 @@ documentarium/
 ├── main.py                          # Main processing script  
 ├── README.md                        # Project documentation  
 └── requirements.txt                 # Python dependencies  
+```
 
 ## 🛣️ Planned improvements (roadmap)
 
